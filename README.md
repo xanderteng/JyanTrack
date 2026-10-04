@@ -1,4 +1,4 @@
-# JyanTrack: Mahjong Soul Enterprise Telemetry & Analytics Platform
+# JyanTrack: Personal Mahjong Soul Enterprise Telemetry & Analytics Platform
 
 [![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
@@ -7,7 +7,7 @@
 [![Bootstrap](https://img.shields.io/badge/Frontend-Bootstrap%204.6-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**JyanTrack** is an enterprise-grade telemetry ingestion engine and performance analytics platform designed to track, normalize, and evaluate competitive Mahjong Soul (Jade/Gold Room) match logs. Built on **ASP.NET Core 8**, **Entity Framework Core 8.0**, **Microsoft SQL Server**, and a responsive **Bootstrap / jQuery** single-page presentation tier, JyanTrack demonstrates decoupled tiered architecture, resilient upstream data ingestion, relational idempotency, and automated database migrations.
+**JyanTrack** is an enterprise-grade telemetry ingestion engine and performance analytics platform designed to track, normalize, and evaluate competitive Mahjong Soul match logs on my account only. Built on **ASP.NET Core 8**, **Entity Framework Core 8.0**, **Microsoft SQL Server**, and a responsive **Bootstrap / jQuery** single-page presentation tier, JyanTrack demonstrates decoupled tiered architecture, resilient upstream data ingestion, relational idempotency, and automated database migrations.
 
 ---
 
