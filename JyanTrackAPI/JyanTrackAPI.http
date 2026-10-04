@@ -1,0 +1,17 @@
+@Host = http://localhost:5062
+
+### Fetch player profile analytics (replace with target account ID)
+GET {{Host}}/api/MahjongStats/profile/12345678
+Accept: application/json
+
+### Ingest and sync live player matches into database
+POST {{Host}}/api/MahjongStats/sync/12345678
+Accept: application/json
+
+### Audit database record counts and latest matches
+GET {{Host}}/api/IngestionTest/db/summary
+Accept: application/json
+
+### Search player by nickname
+GET {{Host}}/api/IngestionTest/player/ExampleNickname
+Accept: application/json

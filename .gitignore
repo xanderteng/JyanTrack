@@ -1,0 +1,52 @@
+# ==========================================
+# Telemetry Data & Fallback Cache JSON Files
+# (Excludes private Mahjong Soul Account IDs & match logs)
+# ==========================================
+player_records.json
+player_extended_stats.json
+*.json
+!appsettings.json
+!appsettings.*.json
+
+# Tooling and IDE json exceptions
+!package*.json
+!tsconfig*.json
+!launch.json
+
+# ==========================================
+# .NET / C# Build & Runtime Artifacts
+# ==========================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.ide/
+*.swp
+*~
+
+# Visual Studio & VS Code cache
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
